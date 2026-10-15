@@ -1,0 +1,24 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.pfp {
+  width: 200px;
+  height: 200px;
+}
+
+.container h1 {
+  font-size: 3.5rem;
+}
